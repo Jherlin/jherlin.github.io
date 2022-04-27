@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/*
+  Project 1: JavaScript Calculator
+  Author: Jherlin
+  Date: 04/27/2022
+
+  Filename: style.css
+*/
+
+/* Hides the results to later be revealed by JavaScript */
+#results {
+    display:none;
+  }
+
+/* Body Style */
+
+.heading, .display-5, .pb-3 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #d7a67c;
+  text-shadow: 1px 1px black;
+}
+
+h5 {
+  color: #d7a67c;
+  font-size: 1.9rem;
+  text-shadow: 0.5px 0.5px black;
+}
+
+.input-group-addon {
+  background-color: #d7a67c;
+  font-size: 1.1rem;
+}
+
+input[type=number], #totalBillWithTip, #tipAmount {
+  background-color: white;
+}
+
+.card, .card-body, .text-center, .mt-5 {
+  box-shadow: 0px 0px 10px #999;
+  opacity: 0.97;
+}
+
+/* ===================
+Smallest Browser Window
+======================
+*/
+@media only screen and (max-width: 590px) {
+
+  /* Body Styles */
+
+  body {
+    background-image: url("Coffee.jpg");
+    background-size: cover;
+  }
+  
+}
+
+/* Body Styles */
+
+
+
+/* ===================
+Smaller Browser Window
+======================
+*/
+@media only screen and (min-width: 591px) {
+
+  /* Body Styles */
+
+  body {
+    background-image: url("Coffee_Shop_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat
+  }
+}
+
+/* =================
+Large Desktop Window
+====================
+*/
+@media only screen and (min-width: 1180px) {
+
+  /* Body Styles */
+
+  body {
+    background-image: url("Coffee_Shop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat
+  }
+
+}
